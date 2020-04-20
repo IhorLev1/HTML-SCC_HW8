@@ -17,8 +17,12 @@
       <div class="background-color">
         <header class="page-header">
           <div class="buttons">
-            <button class="log-in buttons-header">Log in</button>
-            <button class="sign-up buttons-header">Sign up</button>
+            <a href="#" class="link-log-in"
+              ><button class="log-in buttons-header">Log in</button></a
+            >
+            <a href="#" class="link-sign-up"
+              ><button class="sign-up buttons-header">Sign up</button></a
+            >
           </div>
           <div class="logo">
             <a href="#">URLAUBSGLÜCK</a>
@@ -33,13 +37,17 @@
             And find the perfect partner to fullfill it
           </h2>
           <div class="button-box">
-            <button class="holiday-button">Find your holiday partner</button>
+            <button class="holiday-button">
+              <a href="#" class="holiday-button-link">
+                Find your holiday partner</a
+              >
+            </button>
           </div>
         </section>
       </div>
     </div>
-    <main>
-      <section class="partners">
+    <main class="content-box">
+      <section id="partners-id" class="partners">
         <h3 class="title-section-parners">
           Meet a partner for your best holiday
         </h3>
@@ -63,12 +71,14 @@
                 />
               </div>
             </div>
-            <h4 class="partner-name">Bradley Hunter</h4>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Bradley Hunter</h4></a
+            >
             <p class="partner-info">
               Based in Chicago. I love playing tennis and loud music.
             </p>
           </li>
-          <li class="partners-item">
+          <li class="partners-item flex-man">
             <div class="img-box">
               <img
                 class="partner-img"
@@ -87,12 +97,15 @@
                 />
               </div>
             </div>
-            <h4 class="partner-name">Lucas Marsha</h4>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Lucas Marsha</h4></a
+            >
             <p class="partner-info">
-              I get my inspiration from nature and objects around me. I have
+              I get my inspiration from nature and objects around me. I have a
+              passion to colours, typography and skateboards.
             </p>
           </li>
-          <li class="partners-item">
+          <li class="partners-item flex-first-girl">
             <div class="img-box">
               <img
                 class="partner-img"
@@ -111,12 +124,14 @@
                 />
               </div>
             </div>
-            <h4 class="partner-name">Heather Walker</h4>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Heather Walker</h4></a
+            >
             <p class="partner-info">
               I'm a happy person that loves cats and climbing on mountains.
             </p>
           </li>
-          <li class="partners-item">
+          <li class="partners-item flex-second-girl">
             <div class="img-box">
               <img
                 class="partner-img"
@@ -135,7 +150,9 @@
                 />
               </div>
             </div>
-            <h4 class="partner-name">Bradley Hunter</h4>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Bradley Hunter</h4></a
+            >
             <p class="partner-info">
               Based in Chicago. I love playing tennis and loud music.
             </p>
@@ -143,7 +160,9 @@
         </ul>
       </section>
       <div class="partners-section-button">
-        <button>See other partners</button>
+        <button class="partners-button">
+          <a href="#" class="link-other-partners">See other partners</a>
+        </button>
       </div>
     </main>
   </body>

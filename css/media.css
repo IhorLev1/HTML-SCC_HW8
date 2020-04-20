@@ -55,7 +55,7 @@
     font-size: 52px;
   }
   .holiday-section-sub-title {
-    padding: 36px 0;
+    padding: 36px 0 30px 0;
     font-size: 24px;
   }
   .holiday-button {
@@ -63,9 +63,11 @@
     border-radius: 25px;
   }
   .partners-list {
-    width: 492px;
+    max-width: 492px;
+    max-height: 520px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -75,4 +77,28 @@
 }
 
 @media (min-width: 942px) {
+  .page-header {
+    max-width: 942px;
+    padding: 0;
+    padding-top: 38px;
+  }
+  .fluid-background {
+    max-height: 100%;
+  }
+  .background-color {
+    max-height: 700px;
+  }
+  .partners-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 942px;
+  }
+  .flex-man {
+    order: 1;
+  }
+  .flex-second-girl {
+    order: 2;
+  }
 }
